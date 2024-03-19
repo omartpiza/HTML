@@ -1,13 +1,13 @@
-let usuarioNombre = promt("¿Cual es tu nombre?");
+let usuarioNombre = prompt("¿Cual es tu nombre?");
 console.log("Bienvenido " + usuarioNombre);
 document.write("Bienvenido " + usuarioNombre);
 
-let usuarioEdad = promt("¿Cual es tu edad?");
+let usuarioEdad = prompt("¿Cual es tu edad?");
 console.log("Edad= " + usuarioEdad);
 document.write("Edad= " + usuarioEdad);
 
 let cotizacion = confirm("¿quisieras solicitar una cotizacion?");
-if(cotizacion = true){
+if(cotizacion){
     console.log("Eres un Cliente" + usuarioNombre);
     document.write("Perfecto " + usuarioNombre +"!, en breve te contactaremos ;)");
 }else{
@@ -16,11 +16,11 @@ if(cotizacion = true){
 }
 
 let modoOscuro = confirm("¿Quieres cambiar a modo oscuro?");
-if(modoOscuro = true){
+if(modoOscuro){
     document.body.style.backgroundColor = "black";
     console.log("Activa modo oscuro" + usuarioNombre);
     document.write("Perfecto " + usuarioNombre +"!, ahora estas ahorrando energia ;)");
 }else{
     console.log("No activa modo oscuro" + usuarioNombre);
-    document.write("Perfecto " + usuarioNombre +"!, eres el jefe! ;)");
+    document.write("Perfecto " + usuarioNombre + "!, eres el jefe! ;)");
 }
