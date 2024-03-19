@@ -1,18 +1,18 @@
 let usuarioNombre = prompt("¿Cual es tu nombre?");
 console.log("Bienvenido " + usuarioNombre);
-document.write("Bienvenido " + usuarioNombre);
+document.write("Bienvenido " + usuarioNombre + "<br>");
 
 let usuarioEdad = prompt("¿Cual es tu edad?");
 console.log("Edad= " + usuarioEdad);
-document.write("Edad= " + usuarioEdad);
+document.write("Edad= " + usuarioEdad + "<br>");
 
 let cotizacion = confirm("¿quisieras solicitar una cotizacion?");
 if(cotizacion){
     console.log("Eres un Cliente" + usuarioNombre);
-    document.write("Perfecto " + usuarioNombre +"!, en breve te contactaremos ;)");
+    document.write("Perfecto " + usuarioNombre +"!, en breve te contactaremos ;) <br>");
 }else{
     console.log("Eres un Visitante" + usuarioNombre);
-    document.write("No hay problema " + usuarioNombre +" , te invitamos a revisar nuestros servicios ;)");
+    document.write("No hay problema " + usuarioNombre +" , te invitamos a revisar nuestros servicios ;) <br>");
 }
 
 let modoOscuro = confirm("¿Quieres cambiar a modo oscuro?");
