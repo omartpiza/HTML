@@ -14,3 +14,6 @@ function calificarPagina() {
         document.write('<img src="https://img.freepik.com/vector-premium/icono-estrella-aislado-icono-estrella-vector-amarillo-estrella-diseno-plano-estrella-vector_118339-1876.jpg" width="80px">');
     }
 }
+
+validarNivelPrograma();
+calificarPagina();
