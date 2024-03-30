@@ -1,7 +1,7 @@
 function validarNivelPrograma() {
     let nivelPrograma = prompt('Desarrollador, ¿Puedes escribir tu nivel en el programa de Desarrollo de software?');
     while (nivelPrograma !== 'code 102') {
-        alert('Recuerda! ¿En qué nivel del programa te encuentras?');
+        alert('Haz memoria! ¿En qué nivel del programa te encuentras?');
         nivelPrograma = prompt('Ingresa otra vez el nivel del programa en el que te encuentras ');
     }
     alert('¡Perfecto, ya has ingresado!');
